@@ -74,7 +74,7 @@ const Login = () => {
                     />
                     <Button
                     type="submit"
-                    className="w-full"
+                    className="w-[100px] h-[40px] bg-blue-500 rounded-lg hover:bg-blue-300 transition-all duration-200 text-white font-bold"
                     >Sign in</Button>
                 </div>
             </form>
