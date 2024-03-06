@@ -9,7 +9,7 @@ export class DatabaseService{
     constructor(){
         this.client
         .setEndpoint(config.appwriteUrl) //  API Endpoint
-        .setProject(config.projectId) // project ID
+        .setProject(config.appwriteProjectId) // project ID
 
         this.databases = new Databases(this.client);
         this.storage = new Storage(this.client);
